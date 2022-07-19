@@ -41,7 +41,7 @@
     - reference DB (Naive Bayes classifiers로 trained 완료)
         - Silva version 138, 99% OTUs, V4 region : **silva-138-99-515-806-nb-classifier.qza**
             
-- 아래 실습 단계에서 생성되는 **1) ~ 21)** 의 모든 중간파일 또는 결과는 **atacame_answer 폴더** 에 있으며, 각자 실행하여 얻은 결과와 비교 가능합니다. 또한 중간 과정에서 에러가 발생했을 시, 이 answer 폴더 파일을 이용하기 바랍니다.
+- 아래 실습 단계에서 생성되는 **1) ~ 21)** 의 모든 중간파일 또는 결과는 **atacama_answer 폴더** 에 있으며, 각자 실행하여 얻은 결과와 비교 가능합니다. 또한 중간 과정에서 에러가 발생했을 시, 이 answer 폴더 파일을 이용하기 바랍니다.
   	  	
 ---
 >#### 실습 전 주의사항
@@ -503,7 +503,7 @@ qiime feature-classifier classify-sklearn \
 --i-reads rep-seqs.qza \
 --o-classification silva138_99_taxonomy.qza
 ```
-- output 파일: **16) silva138_99_taxonomy.qza** 생성 확인 (노트북 사양에 따라 이단계 분석이 불가능할 경우, atacame_answer 폴더의 16_silva138_99_taxonomy.qza 파일을 내 작업폴더로 복사한 후, 파일명을 silva138_99_taxonomy.qza 으로 바꾼 후, 다음단계를 진행하세요)
+- output 파일: **16) silva138_99_taxonomy.qza** 생성 확인 (노트북 사양에 따라 이단계 분석이 불가능할 경우, atacama_answer 폴더의 16_silva138_99_taxonomy.qza 파일을 내 작업폴더로 복사한 후, 파일명을 silva138_99_taxonomy.qza 으로 바꾼 후, 다음단계를 진행하세요)
 
 - 나의 representative sequences 데이터에 taxonomy 가 붙은 것을 확인하기 위해, 위 생성된 .qza 파일을 Visualization
 - 필요한 input 파일: **16) silva138_99_taxonomy.qza**
