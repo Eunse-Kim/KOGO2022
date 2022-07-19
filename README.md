@@ -762,7 +762,7 @@ biom convert -i feature-table.biom -o R-L2-table.tsv --to-tsv
 > ### Galaxy 환경에서 MaAsLin 과 LEfSe 분석 체험해보기
 
 - Galaxy 환경에서의 분석은 tools 의 최신 업데이트버전이 아닌 경우가 많으니, 될 수 있으면 R 환경에서 최신 버전으로 사용하길 추천합니다.
-- Galaxy 버전의 MaAsLin 과 LEfSe 분석을 위한 input 파일은, atacame_answer 폴더의 31_others 폴더에 있습니다.
+- Galaxy 버전의 MaAsLin 과 LEfSe 분석을 위한 input 파일은, atacama_answer 폴더의 31_others 폴더에 있습니다.
 - [Hutlab Galaxy 웹사이트 접속](http://huttenhower.sph.harvard.edu/galaxy/)
 
  
